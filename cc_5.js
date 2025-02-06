@@ -30,3 +30,23 @@ const order = {
 
 // Calling the method to log order details
 order.displayOrder();
+
+// Task 3: Shopping Cart
+
+// Creating an array to represent items in the cart
+let cartItems = ["Laptop", "Headphones", "Smartphone"];
+
+// Adding a new product to the cart using .push()
+cartItems.push("Tablet");
+
+// Removing the last item using .pop()
+cartItems.pop();
+
+// Adding an item at the beginning using .unshift()
+cartItems.unshift("Smartwatch");
+
+// Removing the first item using .shift()
+cartItems.shift();
+
+// Logging the final cartItems array
+console.log(cartItems);
