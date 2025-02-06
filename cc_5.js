@@ -72,3 +72,14 @@ const availableProducts = inventory.filter(quantity => quantity > 0);
 
 // Logging the filtered array of products with stock
 console.log(availableProducts);
+
+// Task 6: Revenue Calculation
+
+// Declaring an array of sales amounts
+const sales = [500, 300, 200, 400];
+
+// Using the .reduce() method to calculate the total revenue
+const totalRevenue = sales.reduce((total, sale) => total + sale, 0);
+
+// Logging the total revenue
+console.log(totalRevenue);
