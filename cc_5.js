@@ -105,3 +105,14 @@ function calculateTax(amount, taxRate) {
 
 // Calling the function with a sample amount and tax rate
 calculateTax(200, 0.1);  // 10% tax
+
+// Task 9: Discount Application
+
+// Function expression to apply a discount
+const applyDiscount = function(price, discount) {
+    const discountedPrice = price - (price * discount);
+    console.log(`The price after a ${discount * 100}% discount is $${discountedPrice}.`);
+};
+
+// Calling the function with a sample price and discount
+applyDiscount(150, 0.2);  // 20% discount
